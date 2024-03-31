@@ -36,7 +36,7 @@ class RealESRGANer():
                  pre_pad=10,
                  half=False,
                  device=None,
-                 gpu_id=None):
+                 gpu_id=0):
         self.scale = scale
         self.tile_size = tile
         self.tile_pad = tile_pad
